@@ -18,7 +18,7 @@
     <script>
         $("#callCatBtn").on("click", function() {
             $.ajax({
-                url: "http://aws.random.cat/meow",
+                url: "https://aws.random.cat/meow",
                 dataType: "json",
                 success: function(result){
                     $("#imgCat").attr("src", result.file);
